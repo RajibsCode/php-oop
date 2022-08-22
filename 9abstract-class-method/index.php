@@ -1,6 +1,7 @@
 <?php
 
 abstract class carParts{
+    //abstract function dont have body
     abstract function getCarBody();
     abstract function getChassis();
     abstract function getTransmission();
