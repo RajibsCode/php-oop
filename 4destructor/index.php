@@ -10,17 +10,17 @@ class demoClass{
         $this->category = $category;
     }
 
+
+    // destructor method php oop - dstruct method run code at last.
+    public function __destruct(){
+        echo $this->company . " is the best " . $this->category . "website <hr>";
+    }
+    
     public function testFunction(){
 		echo "This is Test Function <br>";
 		exit;
 		echo "This is Test Function after exit";
 	}
-
-    // destructor method php oop
-    public function __destruct(){
-        echo $this->company . " is the best " . $this->category . "website <hr>";
-    }
-
 }
 
 $obj = new demoClass('example','example2');

@@ -23,7 +23,7 @@ class C extends B {
         echo "<hr> Class C : " . $this->son();
     }
 }
-
+// in multilevel inheritance make object for last child
 $obj = new C;
 $obj->getHistory();
 

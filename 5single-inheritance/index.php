@@ -19,6 +19,8 @@ class ChildClass extends ParentClass{
 }
 
 // $obj = new ParentClass;
+
+//create object only for childclass
 $obj = new ChildClass();
 
 $obj->returnValue();

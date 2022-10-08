@@ -37,6 +37,7 @@ class D extends A {
     }
 }
 
+// in hirerarchical inheitance make object for all child class.
 $obj = new B;
 $obj->getHistory();
 $obj = new C;
