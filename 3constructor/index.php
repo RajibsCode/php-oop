@@ -13,7 +13,7 @@ class defaultConstructorClass{
 class parameterizedConstructorClass{
     public $category = "Blog";
     public $company = "Webapp Tips";
-    //default parameterized method
+    //parameterized constructor method
     public function __construct($company,$category){
         $this->company = $company;
         $this->category = $category;

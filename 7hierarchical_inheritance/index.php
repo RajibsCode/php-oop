@@ -40,9 +40,9 @@ class D extends A {
 // in hirerarchical inheitance make object for all child class.
 $obj = new B;
 $obj->getHistory();
-$obj = new C;
-$obj->getHistory();
-$obj = new D;
-$obj->getHistory();
+$obj2 = new C;
+$obj2->getHistory();
+$obj3 = new D;
+$obj3->getHistory();
 
 ?>
