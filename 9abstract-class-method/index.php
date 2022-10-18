@@ -2,6 +2,8 @@
 
 abstract class carParts{
     //abstract function dont have body
+    // abstract method can be only public or protected
+    // dont create any object for abstract class
     abstract function getCarBody();
     abstract function getChassis();
     abstract function getTransmission();

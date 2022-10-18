@@ -2,6 +2,8 @@
 
 // static keyword and resolution operator use
 
+// use static keyword for access function anywhere whithout create object
+
 class demoClass {
     
     public static $name = "Rajib";

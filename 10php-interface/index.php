@@ -1,11 +1,13 @@
 <?php
 
 //interface 
+// dont create obejct for interface class
+// interface only work with public
 interface Animal {
     public function makeSound();
 }
 
-//class 
+//implements 
 class Cat implements Animal {
     public function makeSound(){
         echo "meow";

@@ -1,6 +1,6 @@
 <?php
 
-
+// we cant override final class or method
 final class A {
     final public function maths($a,$b) {
         echo "addition is ". $a + $b;

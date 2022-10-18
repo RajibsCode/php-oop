@@ -1,6 +1,6 @@
 <?php
 
-//declare trait and use it anywhere
+//declare trait and use it anywhere for reduce code duplication
 trait demoTrait {
 
     public function demoFunction() {

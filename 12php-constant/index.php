@@ -1,9 +1,9 @@
 <?php
 
-//declare constant
+//declare constant with define
 define('RAJIB','hi,this is rajib');
 
-//way of declare constant
+//way of declare constant with const keyword
 const DEMO_CONSTANT = "its demo constant <br>";
 
 echo RAJIB;
