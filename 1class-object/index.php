@@ -8,9 +8,9 @@ class car {
 
     //variable with array data
     public $carInfo = [
-        'brand' => 'skoda',
-        'model' => 'octavia',
-        'class' => 'sedan',
+        'brand' => 'lamborgini',
+        'model' => 'aventador',
+        'class' => 'roadstar',
         'color' => 'green',
         'music_system' => 'JBL',
         'wheel' => 'alloy'
@@ -34,9 +34,9 @@ $obj = new car();
 // echo $obj->color;
 
 $obj->testFunction([
-    'brand' => 'skoda',
-    'model' => 'octavia',
-    'class' => 'sedan',
+    'brand' => 'lamborgini',
+    'model' => 'aventador',
+    'class' => 'roadstar',
     'color' => 'green',
     'music_system' => 'JBL',
     'wheel' => 'alloy'

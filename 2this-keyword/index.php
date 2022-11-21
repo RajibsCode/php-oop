@@ -1,7 +1,7 @@
 <?php
 
 class car {
-    public $car = 'octavia';
+    public $car = 'lamborgini';
 
     public function favCar($name){
         //this keyword for change variable value
@@ -13,7 +13,7 @@ class car {
 $obj = new car();
 echo $obj->car;
 
-$obj->favCar('lamborgini');
+$obj->favCar('BMW');
 
 echo $obj->car;
 
