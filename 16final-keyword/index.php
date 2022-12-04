@@ -8,7 +8,7 @@ final class A {
 }
 
 class B extends A {
-    
+    // overwrite parent class function
     public function maths_test($a, $b) {
         echo "Multiplication is: " . $a * $b;
     }

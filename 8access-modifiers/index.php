@@ -41,11 +41,11 @@ class anotherClass extends myClass{
 // $obj->protectedFunction();
 // $obj->privateFunction();
 
-// $obj = new anotherClass();
-// $obj->callingFunction();
+$obj = new anotherClass();
+$obj->callingFunction();
 
-$obj = new myClass();
-$obj->baseFunction();
+// $obj = new myClass();
+// $obj->baseFunction();
 
 
 ?>

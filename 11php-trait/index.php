@@ -15,6 +15,7 @@ trait anotherTrait {
 }
 
 class demoClass {
+    // trait use in any class
     use demoTrait,anotherTrait;
 }
 

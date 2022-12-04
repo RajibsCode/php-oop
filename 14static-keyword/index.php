@@ -13,6 +13,7 @@ class demoClass {
     }
 
     public function getData(){
+        // use method from own class
         self::demoFunction();
     }
 
@@ -20,8 +21,10 @@ class demoClass {
 class childClass extends demoClass {
 
 	public function getStaticData(){
+        // print variable from parent class
 		echo demoClass::$name;
 		echo "<br>";
+        // use method from parent class
 		parent::demoFunction();
 	}
 }

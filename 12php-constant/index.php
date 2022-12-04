@@ -14,12 +14,14 @@ echo DEMO_CONSTANT;
 class demoClass1 {
     const DEMO = "constant in parent class <br>";
     function getConstants(){
+        // use const from own class
         echo self::DEMO;
     }
 }
 class demoClass2 extends demoClass1 {
     const DEMO = "constant in child class <br>";
     function getConstants2(){
+        // use const from parent class
         echo parent::DEMO;
     }
 }
